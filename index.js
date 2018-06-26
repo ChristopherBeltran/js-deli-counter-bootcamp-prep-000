@@ -19,8 +19,12 @@ return "The line is currently empty.";
 else { 
 		for (let i = 0; i < katzDeliLine.length; i++)
 		lineString.push((i+1) + '. ' + katzDeliLine[i]);
+<<<<<<< HEAD
 		var finalLine = lineString.join(', ')
 	return "The line is currently: " + finalLine;
+=======
+	return "The line is currently: " + lineString;
+>>>>>>> 5ff8100b3d78fd12d409b9a02068bd0a01db6071
 }
 	
 }
